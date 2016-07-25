@@ -1,6 +1,7 @@
 // bower:scss
 // endbower
 
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -86,4 +87,13 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+a.fa {
+  color: #777;
+}
+a.fa:hover {
+	display: inline-block;
+	text-decoration: none;
+        color: #337ab7;
 }
