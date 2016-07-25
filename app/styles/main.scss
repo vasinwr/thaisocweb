@@ -89,8 +89,10 @@ body {
   }
 }
 
-a.fa {
-  color: #777;
+a.fa, a.fa:active, a.fa:visited {
+	display: inline-block;
+	text-decoration: none;
+        color: #777;
 }
 a.fa:hover {
 	display: inline-block;
