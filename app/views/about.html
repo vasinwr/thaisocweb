@@ -16,10 +16,17 @@
 <hr>
 <div class="row">
   <div class="col-lg-4 col-sm-6 text-center" ng-repeat="x in [1,2,3,4,5,6,7]">
-    <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+    <img style="padding:30px;" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
     <h3>John Smith
       <small>Job Title</small>
     </h3>
     <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
   </div>
 </div>
+
+<!-- to highlight the main nav-bar when load or refresh -->
+<script> 
+  document.getElementById("nav-3").className = "active";
+  document.getElementById("nav-1").className = "";
+  document.getElementById("nav-2").className = "";
+</script>
